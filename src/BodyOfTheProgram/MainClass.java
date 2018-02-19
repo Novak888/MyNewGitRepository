@@ -20,6 +20,10 @@ public class MainClass {
         } else {
             System.out.println("Bye!");
         }
+        System.out.println("The resulting number can be divided, if you want to enter a number.");
+        int division = scanner.nextInt();
+        Division divisions = new Division();
+        divisions.division(division);
 
     }
 }
